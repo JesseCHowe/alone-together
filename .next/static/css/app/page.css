@@ -1,0 +1,39 @@
+/*!********************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[3]!./src/app/components/Table/Table.css ***!
+  \********************************************************************************************************************************************************************************************************************************************************************************/
+.table {
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+
+}
+
+.table-body {
+  background: #222;
+  border-radius: 5px;
+}
+.table-hed,
+.row {
+  display: grid;
+  grid-template-columns: 30px 1fr repeat(5, 1fr);
+}
+
+.table-hed span {
+  font-size: 13px;
+  opacity: 0.5;
+  display: block;
+  text-align: center;
+}
+
+.profile-icon i{
+  width: 100%;
+  aspect-ratio: 1/1;
+  display: block;
+  border: 1px solid red;
+  border-radius: 50%;
+}
+
+button {
+  background: red;
+  width: 50px;
+}
